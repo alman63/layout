@@ -56,6 +56,6 @@ module.exports = (env) => ({
     devServer: {
         compress: true,
         port: 9000,
-        watchFiles: ['*.html'],
+        watchFiles: ['*.html', '*.css'],
     },
 });
